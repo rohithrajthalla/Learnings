@@ -231,3 +231,41 @@ elif (secondNumber < thirdNumber):
 else:
 	print('Minimum number is', thirdNumber)
 ```
+---
+
+### Modules
+
+- Module is a file containing Python code that defines functions, classes, and variables that can be used in other Python programs.
+- Syntax: `import moduleName` access the module using `moduleName.Example`
+    - **Math Module:** It provides all the mathematical formulas and functions
+    - **random Module:** It provides random values based on the request
+    - **datetime Module:** It provides all the information related date and time, can perform operations on it
+
+---
+
+### Loops
+
+- loops are used to repeatedly execute a block of code until a certain condition is met.
+- **How are loops used real world example?**
+    - Let's say you are developing a web application that displays a list of products available on an e-commerce platform, similar to Amazon. You have a database or a list of products that you want to display on the website.Using a loop, you can iterate over the list of products and generate HTML markup dynamically for each product. This allows you to display all the products without having to manually write HTML code for each one.
+
+### While Loop
+
+- The "while" loop is used to repeatedly execute a block of code as long as a certain condition is true.
+    
+    ```python
+    while condition:
+        # Code to be executed as long as the condition is true
+    ```
+    
+    ```python
+    #Write a program that takes a number and print's it table
+    
+    number = int(input('enter the number'))
+    
+    i = 1
+    #print 10 numbers
+    while i<11:
+        print(number, '*', i , '=',number*i)
+        i+=1
+    ```
