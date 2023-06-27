@@ -231,7 +231,6 @@ elif (secondNumber < thirdNumber):
 else:
 	print('Minimum number is', thirdNumber)
 ```
-
 ---
 
 ### Modules
@@ -249,8 +248,6 @@ else:
 - loops are used to repeatedly execute a block of code until a certain condition is met.
 - **How are loops used real world example?**
     - Let's say you are developing a web application that displays a list of products available on an e-commerce platform, similar to Amazon. You have a database or a list of products that you want to display on the website.Using a loop, you can iterate over the list of products and generate HTML markup dynamically for each product. This allows you to display all the products without having to manually write HTML code for each one.
-
----
 
 ### While Loop
 
@@ -272,17 +269,3 @@ else:
         print(number, '*', i , '=',number*i)
         i+=1
     ```
-    
-- To understand any code step by step use the [python tutor](https://pythontutor.com/python-debugger.html#mode=edit) website, Can be really handy when your stuck
-- We can use while and else together, If the while condition breaks it enters into the else condition
-
----
-
-### For loop
-
-- We use range functin in for loop, It iterates throught the given range rang one by one.
-
-```jsx
-for item in range:
-    # Code to be executed for each item
-```
